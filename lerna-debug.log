@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'D:\\Program Files\\nodejs\\node_global\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'asd'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath E:\gitClone\create-react-app
+3 error Error: Command failed: git config --get user.name
+3 error
+3 error
+3 error     at makeError (E:\gitClone\create-react-app\node_modules\execa\index.js:174:9)
+3 error     at Function.module.exports.sync (E:\gitClone\create-react-app\node_modules\execa\index.js:338:15)
+3 error     at Object.execSync (E:\gitClone\create-react-app\node_modules\@lerna\child-process\index.js:26:16)
+3 error     at CreateCommand.gitConfig (E:\gitClone\create-react-app\node_modules\@lerna\create\index.js:181:34)
+3 error     at CreateCommand.initialize (E:\gitClone\create-react-app\node_modules\@lerna\create\index.js:103:46)
+3 error     at E:\gitClone\create-react-app\node_modules\@lerna\command\index.js:272:24
